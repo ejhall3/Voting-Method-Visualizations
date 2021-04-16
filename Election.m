@@ -56,6 +56,11 @@ end
 
 colors = input('Please list colors to represent candidates:');
 
+% rgb function sourced from
+% Author: Ben Mitch
+% Website: MATLAB Central File Exchange
+% Link: https://www.mathworks.com/matlabcentral/fileexchange/1805-rgb-m
+
 for i = 1:length(colors)
    colorInd(i,:) = rgb(colors(i));
 end
